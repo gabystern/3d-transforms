@@ -8,7 +8,7 @@ function init() {
 
   renderer = new THREE.WebGLRenderer();
   renderer.setClearColor( 0xffffff, 0);
-  renderer.setSize( 500, 500 );
+  renderer.setSize( 700, 400 );
   document.getElementById("bed").appendChild(renderer.domElement);
 
   camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 1000 );

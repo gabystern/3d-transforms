@@ -1,5 +1,4 @@
 #container {
-  background-color: #EDF6F6;
   width: 100vw;
   height: 100vh;
   flex: 1;
@@ -47,6 +46,14 @@ a:active {
   background-color: #ffffff;
 }
 
+.footer {
+  height: 3.125rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
 img {
   height: 2rem;
   width: auto;
@@ -63,9 +70,18 @@ img {
   letter-spacing: .01em;
 }
 
-aside {
+aside.right {
   float:right;
   margin-right: 3rem;
+  width: 44%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #505050;
+}
+
+aside.left {
+  float:left;
+  margin-left: 3rem;
   width: 44%;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
@@ -105,16 +121,30 @@ h1 {
 
 #bed {
   display: inline;
+  width: 700px;
 }
 
 .bed-details {
   height: 35rem;
+  background-color: #EDF6F6;
+}
+
+.drag {
+  margin-top: 3rem;
+  width: 700px;
+}
+
+.cart {
+  float:right;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 canvas {
-  margin-left: 3rem;
-  width: 40%;
-  height: auto;
+  width: 20rem;
+  height: 25rem;
 }
 
 select {

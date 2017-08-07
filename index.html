@@ -23,39 +23,44 @@
             <li><a href="https://casper.com/duvet-inserts/">DUVET</a></li>
             <li><a href="https://casper.com/mattress-foundation/">FOUNDATION</a></li>
             <li><a href="https://casper.com/">MORE</a></li>
+            <li ><img class="cart" src='./assets/cart.png'/></li>
           </ul>
         </div>
         <p class="header">The Mattress</p>
         <div class="bed-details">
-          <div id="bed"></div>
-          <aside>
+          <aside class="left">
+            <div id="bed">
+              <p class="drag">Drag the bed around to see it in 3D</p>
+            </div>
+          </aside>
+          <aside class="right">
             <h1>THE CASPER MATTRESS</h1>
-            <div class="details">Pressure-relieving memory foam and a breathable, springy layer come together to create a perfect sleep surface.</div>
-            <div class="bed-options">Select a Size: </div>
-            <select name="cars">
-              <option value="queen"><strong>Queen</strong> (60" X 80" X 10")</option>
-              <option value="twin"><strong>Twin</strong> (39" X 75" X 10")</option>
-              <option value="twinxl"><strong>Twin XL</strong> (39" X 80" X 10")</option>
-              <option value="full"><strong>Full</strong> (54" X 75" X 10")</option>
-              <option value="king"><strong>King</strong> (76" X 80" X 10")</option>
-              <option value="calking"><strong>CAL King</strong> (72" X 84" X 10")</option>
+            <div class="details"></div>
+            <p>Pressure-relieving memory foam and a breathable, springy layer come together to create a perfect sleep surface.<p>
+            <select name="beds" id="bedsize" onchange="bedPrice()">
+              <option value=""><strong>Select a Size</strong></option>
+              <option value="$950"><strong>Queen</strong> (60" X 80" X 10")</option>
+              <option value="$550"><strong>Twin</strong> (39" X 75" X 10")</option>
+              <option value="$600"><strong>Twin XL</strong> (39" X 80" X 10")</option>
+              <option value="$800"><strong>Full</strong> (54" X 75" X 10")</option>
+              <option value="$1,150"><strong>King</strong> (76" X 80" X 10")</option>
+              <option value="$1,150"><strong>CAL King</strong> (72" X 84" X 10")</option>
             </select>
-            <div class="price">$950
-            <button type="button">ADD TO CART</button></div>
+            <div class="price">
+              <div id="pricetag">
+              </div>
+              <button type="button">ADD TO CART</button>
+            </div>
           </aside>
         </div>
-        <div class="navbar">
+        <div class="footer">
           <ul>
-            <li><img src='./assets/Casper_Logo.png'/></li>
-            <li><a href="https://casper.com/mattresses/">MATTRESS</a></li>
-            <li><a href="https://casper.com/pillows/">PILLOW</a></li>
-            <li><a href="https://casper.com/sheets/">SHEETS</a></li>
-            <li><a href="https://casper.com/duvet-inserts/">DUVET</a></li>
-            <li><a href="https://casper.com/mattress-foundation/">FOUNDATION</a></li>
-            <li><a href="https://casper.com/">MORE</a></li>
+            <li><img src='./assets/moon.png'/> 100 NIGHT TRIAL FREE RETURNS </li>
+            <li><img src='./assets/truck.png'/> SAME DAY, WHITE GLOVE DELIVERY IN SELECT AREAS </li>
           </ul>
         </div>
       </div>
       <script type="text/javascript" src='bed.js'></script>
+      <script type="text/javascript"src="index.js"></script>
   </body>
 </html>
