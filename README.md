@@ -1,5 +1,5 @@
 ## 3d-transforms
-A JavaScript application that lets you view all sides and move around a 3D mattress. 
+A JavaScript application that lets you interact with and view all sides of a 3D mattress. 
 
 To install the application and run it in your local environment:
 
